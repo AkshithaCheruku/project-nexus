@@ -1,0 +1,51 @@
+.dashboard-main {
+  background-image: url('../assets/bg3.jpg');
+  /* Adjust the path as necessary */
+  background-size: cover;
+  /* Ensures the image covers the entire div */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
+  font-size: 30px;
+  height: 100vh;
+  width: 100%;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.dashboard-main p {
+  font-size: 20px;
+  padding: 0 20px
+}
+
+.logout-button {
+  background: black;
+  color: white;
+  border: 3px solid black;
+  transition: background 1s linear 0ms;
+  transition: color 500ms linear 0ms;
+
+  width: 500px;
+  padding: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.logout-button:hover {
+  color: #333;
+  background-color: white;
+}
